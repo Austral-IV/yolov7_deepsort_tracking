@@ -445,8 +445,6 @@ class YoloDeepsortUtility(YOLOv7_DeepSORT):
             if output: 
                 print("Saving video...")
                 out.release()
-    
-    
         
     def track_video2(self,video:str, output:str, skip_frames:int=0, show_live:bool=False, count_objects:bool=False, verbose:int = 0,
                     frame_start:int=0, do_yield:bool=False):
@@ -594,7 +592,6 @@ class YoloDeepsortUtility(YOLOv7_DeepSORT):
             if output: 
                 print("Saving video...")
                 out.release()
-    
     
     def deepSortTrack(self, frame, bboxes, classes, scores, names):
         """
